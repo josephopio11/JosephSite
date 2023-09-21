@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const ProfilePic = () => {
     return (
-        <section className="w-full mx-auto">
+        <section className="w-full mx-auto pt-20">
             <Image
                 src={"/images/me.png"}
                 width={300}
