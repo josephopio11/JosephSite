@@ -13,19 +13,19 @@ const Contact = () => {
                     <div className="section-content dark:text-slate-100">
                         <p>Please get in touch and we have a chat in case of anything. Please use any of the contacts below.</p>
                         <div>
-                            <div className=" text-white text-4xl lg:text-5xl sm:text-2xl flex gap-6 align-middle justify-start">
+                            <div className="dark:text-white text-slate-900 text-4xl lg:text-5xl sm:text-2xl flex gap-6 align-middle justify-start">
                                 <FaRegEnvelope />
                                 <p className="text-sm">
                                     hi@josephopio.com
                                 </p>
                             </div>
-                            <div className=" text-white text-4xl lg:text-5xl sm:text-2xl flex gap-6 align-middle justify-start">
+                            <div className="dark:text-white text-slate-900 text-4xl lg:text-5xl sm:text-2xl flex gap-6 align-middle justify-start">
                                 <FaPhoneAlt />
                                 <p className="text-sm">
                                     +256 775 36 6973
                                 </p>
                             </div>
-                            <div className=" text-white text-4xl lg:text-5xl sm:text-2xl flex gap-6 align-middle justify-start">
+                            <div className="dark:text-white text-slate-900 text-4xl lg:text-5xl sm:text-2xl flex gap-6 align-middle justify-start">
                                 <FaMapPin />
                                 <p className="text-sm">
                                     Kampala, Uganda
