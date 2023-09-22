@@ -10,23 +10,23 @@ export function generateStaticParams(){
         postId: post.id
     }))
 }
-// 
-// export function generateMetada({ params }: { params: { postId: string } }) {
-//     const posts = getSortedPostsData() //deduped!
-//     const { postId } = params
-// 
-//     const post = posts.find(post => post.id === postId)
-// 
-//     if(!post) {
-//         return {
-//             title: 'Post not found'
-//         }
-//     }
-// 
-//     return {
-//         title: post.title
-//     }
-// }
+
+export function generateMetada({ params }: { params: { postId: string } }) {
+    const posts = getSortedPostsData() //deduped!
+    const { postId } = params
+
+    const post = posts.find(post => post.id === postId)
+
+    if(!post) {
+        return {
+            title: 'Post not found'
+        }
+    }
+
+    return {
+        title: post.title
+    }
+}
 
 export default async function Post({ params }: { params: { postId: string } }) {
     const posts = getSortedPostsData()

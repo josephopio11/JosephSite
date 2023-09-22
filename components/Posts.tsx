@@ -12,6 +12,7 @@ const Posts = () => {
                 <ul className="w-full">
                     {posts.map(post => (
                         <ListItem key={post.id} post={post} />
+                        // JSON.stringify(post)
                     ))}
                 </ul>
             </div>
